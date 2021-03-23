@@ -24,7 +24,7 @@ public class HomeWorkApp {
         int a, b;
         a = 3;
         b = -5;
-        if (a + b >= 0) { System.out.println("Сумма положительная"); }
+        if ( a + b >= 0 ) { System.out.println("Сумма положительная"); }
         else { System.out.println("Сумма отрицательная"); }
         //ставлю else без условия, т.к. вариантов выбора больше нет и так мы исключим лишнее сравниение из кода/процедуры
     }
@@ -33,7 +33,7 @@ public class HomeWorkApp {
     private static void printColor() {
         int value;
         value = 25;
-        if (value <= 0) { System.out.println("Красный"); }
+        if ( value <= 0 ) { System.out.println("Красный"); }
         else if ( value > 0 && value <= 100) { System.out.println("Желтый"); }
         else {
             System.out.println("Зеленый");
@@ -46,7 +46,7 @@ public class HomeWorkApp {
         int a, b;
         a = 30;
         b = 50;
-        if (a >= b) { System.out.println("a >= b"); }
+        if ( a >= b ) { System.out.println("a >= b"); }
         else { System.out.println("a < b"); }
     }
 

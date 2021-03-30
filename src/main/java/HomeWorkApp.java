@@ -4,7 +4,7 @@ public class HomeWorkApp {
     public static void main(String[] args) {
 
         printThreeWords();
-        checkSumSign();
+        checkSumSign(3, 5);
         printColor();
         compareNumbers();
 
@@ -20,10 +20,10 @@ public class HomeWorkApp {
     //Задание 3
     //ИМХО: Лучше вводить переменные в аргументы метода и уже иниализировать их при выхове метода, но таково ДЗ
     //Имеем 6 warnings из-за хардкода в значениях переменных
-    private static void checkSumSign(){
-        int a, b;
+    private static void checkSumSign(int a, int b){
+        /*int a, b;
         a = 3;
-        b = -5;
+        b = -5;*/
         if ( a + b >= 0 ) { System.out.println("Сумма положительная"); }
         else { System.out.println("Сумма отрицательная"); }
         //ставлю else без условия, т.к. вариантов выбора больше нет и так мы исключим лишнее сравниение из кода/процедуры

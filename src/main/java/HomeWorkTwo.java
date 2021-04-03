@@ -40,6 +40,8 @@ public class HomeWorkTwo {
         System.out.println("Введите номер года для проверки является ли год високосным");
         year = scanner.nextInt();
         System.out.println("Утверждение, что " + year + " високосный является " + isYearLeap(year));
+
+        scanner.close();
     }
 
 //Написать метод, принимающий на вход два целых числа и проверяющий,

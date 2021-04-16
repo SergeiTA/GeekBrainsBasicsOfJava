@@ -4,12 +4,12 @@ import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cat extends Animal{
+public class CatFromAnimals extends Animal{
 
-    public static List<WeakReference<Cat>> instancesOfCats = new ArrayList<>();
+    public static List<WeakReference<CatFromAnimals>> instancesOfCats = new ArrayList<>();
 
-    public Cat(String name) {
-        instancesOfCats.add(new java.lang.ref.WeakReference<Cat>(this));
+    public CatFromAnimals(String name) {
+        instancesOfCats.add(new java.lang.ref.WeakReference<CatFromAnimals>(this));
         this.name = name;
         this.maxRunRange = 200;
         this.maxSwimRange = 0;

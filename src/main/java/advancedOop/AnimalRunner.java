@@ -8,8 +8,8 @@ public class AnimalRunner {
         Dog Toby = new Dog("Toby");
         Dog Rex = new Dog("Rex");
 
-        Cat Garfield = new Cat("Garfield");
-        Cat Fluffy = new Cat("Fluffy");
+        CatFromAnimals Garfield = new CatFromAnimals("Garfield");
+        CatFromAnimals Fluffy = new CatFromAnimals("Fluffy");
 
         System.out.println("-------");
         Buddy.run(100);
@@ -33,7 +33,7 @@ public class AnimalRunner {
 
         System.out.println("-------");
         System.out.println("Всего собак : " + Dog.instancesOfDogs.size());
-        System.out.println("Всего кошек/котов : " + Cat.instancesOfCats.size());
+        System.out.println("Всего кошек/котов : " + CatFromAnimals.instancesOfCats.size());
         System.out.println("Всего животных : " + Animal.instancesOfAnimals.size());
     }
 

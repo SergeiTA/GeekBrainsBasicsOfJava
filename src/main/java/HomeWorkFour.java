@@ -7,7 +7,7 @@ public class HomeWorkFour {
     private static final char DOT_X = 'X';
     private static final char DOT_O = 'O';
     private static final int FIELD_SIZE = 5;
-    private static final int WIN_SEQ = 4;
+    //private static final int WIN_SEQ = 4;
 
     private static Scanner scanner = new Scanner(System.in);
     private static final char[][] gameField = new char[FIELD_SIZE][FIELD_SIZE];
